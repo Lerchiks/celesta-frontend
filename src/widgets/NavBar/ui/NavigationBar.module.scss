@@ -1,0 +1,90 @@
+@use '@/shared/styles/breakpoints' as *;
+
+$elements-width: 360px;
+$center-element-width: 120px;
+
+$buttons-font-size: 18px;
+$logo-font-size: 30px;
+
+$login-color: white;
+
+$max-width-desktop: $breakpoint-lg;
+$background-gradient: rgb(0, 0, 0);
+
+$buttons-radius: 10px;
+$nav-buttons-padding: 10px 22px;
+
+.nav-bar-wrapper {
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+
+    background-image: linear-gradient(
+        180deg,
+        $background-gradient,
+        transparent
+    );
+}
+
+.nav-container {
+    display: flex;
+    flex-direction: row;
+
+    width: 100%;
+    max-width: $max-width-desktop;
+
+    align-items: center;
+    justify-content: space-between;
+
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+.nav-button {
+    font-size: $buttons-font-size;
+}
+
+.nav-icon {
+    display: flex;
+    justify-content: flex-start;
+    width: $elements-width;
+    font-size: $logo-font-size;
+    font-weight: 500;
+}
+
+.nav-ul {
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+}
+
+.nav-ul > * {
+    display: flex;
+    justify-content: center;
+    width: $center-element-width;
+}
+
+.nav-right-btn {
+    display: flex;
+    width: $elements-width;
+    justify-content: flex-end;
+    gap: 10px;
+}
+
+.nav-button-login {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: black;
+    padding: $nav-buttons-padding;
+    border-radius: $buttons-radius;
+}
+
+.nav-button-create {
+    display: flex;
+    justify-content: center;
+    padding: $nav-buttons-padding;
+    background-color: $login-color;
+    color: black;
+    border-radius: $buttons-radius;
+}

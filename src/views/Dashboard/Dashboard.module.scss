@@ -1,0 +1,8 @@
+@use '@/shared/styles/breakpoints' as *;
+
+.container {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    margin: 20px 0;
+}

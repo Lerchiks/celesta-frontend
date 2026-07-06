@@ -1,0 +1,47 @@
+.templateHeader {
+    max-width: 1000px;
+    padding: 0 40px;
+}
+
+.templateHeader span {
+    color: #8b2ade;
+    padding-right: 10px;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+.carouselWrapper {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    border-radius: 18px;
+    background: #d9d9d91c;
+    padding: 30px;
+}
+
+.nextBtn {
+    font-size: 40px;
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: black;
+    background: #d9d9d980;
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+
+    left: 1400px;
+}
+
+.btnWrapper {
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+}
