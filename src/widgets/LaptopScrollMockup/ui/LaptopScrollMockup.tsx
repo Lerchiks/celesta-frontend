@@ -45,7 +45,7 @@ export default function LaptopScrollMockup() {
                                 <li>
                                     <img
                                         className={styles['iconSize']}
-                                        src="/mockups/icons/кисть.png"
+                                        src="/mockups/icons/brush.png"
                                     />
                                     <span>Фон</span>
                                 </li>
@@ -77,7 +77,7 @@ export default function LaptopScrollMockup() {
                                 <li>
                                     <img
                                         className={styles['iconSize']}
-                                        src="/mockups/icons/картина.png"
+                                        src="/mockups/icons/picture.png"
                                     />
                                     <span>Обложка</span>
                                 </li>
